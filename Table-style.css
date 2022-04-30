@@ -1,0 +1,78 @@
+ th  {
+    border: 2px solid rgb(201, 21, 21);
+    border-radius: 10px;
+    background-color: #c2b04b;
+  }
+
+ td {
+    border: 2px solid rgb(201, 21, 21);
+    border-radius: 10px;
+   background-color: aliceblue;
+  }
+
+  table {
+    border: 2px solid rgb(201, 21, 21);
+    border-radius: 10px;
+   
+  }
+  .article {
+    background-image:url('https://www.nmpd.gov.lv/sites/nmpd/files/styles/gallery/public/gallery_images/nmpd-operativie-auto-8_0.jpg?itok=ZLXXRMRI');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+  }
+  body {
+
+    background-color: rgb(141, 207, 207);
+  }
+  .header {
+    color: rgb(219, 24, 40);
+  }
+  * {
+    border: 1px solid red;
+  }
+  a:hover {
+    color:black
+  }
+  .box-content {
+    text-align: center;
+    padding: 30px 30px 50px 30px;
+    margin: 10px auto;
+    border: 3px dotted blue !important;
+    border-radius: 25%;
+    width: 150px;
+    height: 30px;
+    min-width: 100px;
+    min-height: 20px;
+
+  }
+  .menu {
+    overflow: hidden;
+    background-color: #8cce5a;
+    border-bottom: 1px solid #8cce5a;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+  }
+  
+  .menu ul {
+    margin: auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .menu li {
+    color: rgb(183, 16, 16);
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 250px;  
+    letter-spacing: 2px
+  }
+  
+  .menu li:hover {
+    color: #DBE9EE;
+  }
